@@ -1,0 +1,81 @@
+<style>
+.logo {
+  background-image: url("css/images/bios-logo-red.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 110px;
+  height: 128px;
+  z-index: 0;
+}
+</style>
+
+<script>
+
+document
+  .querySelectorAll(
+    '.remark-slide-content' +
+    ':not(.title-slide)' +
+    // add additional classes to exclude here, e.g.
+    // ':not(.inverse)' +
+    ':not(.hide-logo)'
+  )
+  .forEach(el => {
+    el.innerHTML += '<div class="logo"></div>';
+  });
+</script>
+
+<script src="https://kit.fontawesome.com/d350c46f41.js" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+var myTimerObj1 = (function(document){
+   
+   var myTimer1;
+
+   function start() {
+     myTimer1 = setInterval(myClock, 1000);
+     var c = 10;
+
+     function myClock() {
+       document.getElementById("demo1").innerHTML = --c;
+       if (c == 0) {
+         clearInterval(myTimer1);
+       }
+     }
+   }
+   
+   function end() {
+       clearInterval(myTimer1)
+   }
+
+   return {start:start, end:end};
+ })(document);
+</script>
+
+
+<script type="text/javascript">
+ var myTimerObj2 = (function(document){
+   
+   var myTimer2;
+
+   function start() {
+     myTimer2 = setInterval(myClock, 1000);
+     var c = 10;
+
+     function myClock() {
+       document.getElementById("demo2").innerHTML = --c;
+       if (c == 0) {
+         clearInterval(myTimer2);
+       }
+     }
+   }
+   
+   function end() {
+       clearInterval(myTimer2)
+   }
+
+   return {start:start, end:end};
+ })(document);
+</script>

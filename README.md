@@ -1,6 +1,7 @@
 # Abstract
 
-## Natural Selection Does Not Come Naturally: Getting mired in pattern & process and proximate & ultimate causality
+## Natural Selection Does Not Come Naturally:
+### Getting mired in pattern & process and proximate & ultimate causality
 
 Biology offers explanation at multiple levels: first by establishing patterns and investigating their causal processes, and then by providing proximate and ultimate causes for observed patterns and processes. This dual causality -- the proximate functional 'how' and the ultimate evolutionary 'why' -- is of particular importance to biological sciences; the 'why' being the stuff that gives the 'how' consequence. Yet hundreds of studies demonstrate that students hold tenacious misconceptions regarding the evolutionary principles necessary for recognizing levels of biological explanation, and that formal instruction does little to address such misconceptions. 
 

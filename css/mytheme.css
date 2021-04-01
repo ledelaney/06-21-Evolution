@@ -3,23 +3,13 @@
 
 
 /*-- Font sizing --*/
-.small-font {
- font-size: 15px
-}
-
-.medium-font {
- font-size: 18px
-}
-
-.mezzo-forte-font {
- font-size: 27px
-}
-
-.large-font {
- font-size: 45px;
- line-height: normal;
-
-}
+.larger { font-size: 400% }
+.bitlarger { font-size: 200%; line-height: normal; }
+.large { font-size: 130% }
+.midi { font-size: 85% }
+.small { font-size: 70% }
+.xsmall { font-size: 60% }
+.tiny { font-size: 50% }
 
 .italic{
 	font-style: italic;
@@ -89,8 +79,7 @@ line-height: normal;
 
 .pull-right-low + * { clear: both; }
 
-
-.main_title {
+.title-slide h2 {
   position: absolute;
   top: 90px;
   right: 18px;
@@ -98,11 +87,12 @@ line-height: normal;
 
 }
 
-.sub_main_title {
+.title-slide h3 {
   position: relative;
   width: 48%;
   top:  0px;
   left: 440px;
+
 }
 
 .contact{
@@ -181,7 +171,18 @@ line-height: normal;
       z-index: -1;
 }
 
+.bg_swan h2 {
+  position: absolute;
+  top: 390px;
+  width: 40%;
+  left: 515px;
+}
 
+.swantext {
+  position: absolute;
+  top: 500px;
+  left: 570px;
+}
 
 .bg_sunflower {
   position: relative;
@@ -204,6 +205,11 @@ line-height: normal;
       z-index: -1;
 }
 
+.bg_sunflower h3 {
+  position: relative;
+  top: -20px;
+}
+
 
 .bg_lobster {
   position: relative;
@@ -218,10 +224,10 @@ line-height: normal;
       background-repeat: no-repeat;
       background-color: #F6F5F0;
       position: absolute;
-      top: 270px;
+      top: 320px;
       right: 0px;
       bottom: 0px;
-      left: 0px;
+      left: 40px;
       opacity: 1;
       z-index: -1;
 }
@@ -312,7 +318,12 @@ line-height: normal;
       z-index: -1;
 }
 
-
+.bisontext {
+  position: absolute;
+  top: 320px;
+  left: 200px;
+  width: 65%;
+}
 
 .bg_turtle {
   position: relative;
@@ -437,12 +448,22 @@ hr {
 /*-- BOTTOM-OF-SLIDE PROPERTIES --*/
 
 /*-- Footnote --*/
-.footnote {
-  position:           absolute;
-  bottom:             0.2em;
-  padding-right:      4em;
-  font-size:          65%;
-  line-height:        1.3em;
+.footnote-light {
+  position: absolute;
+  bottom: 0.2em;
+  left: 1em;
+  font-size: 65%;
+  line-height: 1.3em;
+}
+
+.footnote-dark {
+  position: absolute;
+  bottom: 0.2em;
+  left: 2em;
+  font-size: 65%;
+  line-height: 1.3em;
+  color: #FFFFFF;
+  width: 15%;
 }
 
 /*-- Slide number --*/
@@ -668,35 +689,35 @@ input[type="checkbox"] {
 
 
 .btn-outline-info {
-  color: #9954bb;
-  border-color: #9954bb;
+  color: #b33333;
+  border-color: #b33333;
 }
 
 .btn-outline-info:hover {
   color: #fff;
-  background-color: #9954bb;
-  border-color: #9954bb;
+  background-color: #bb5454;
+  border-color: #bb5454;
 }
 
 .btn-outline-info:focus, .btn-outline-info.focus {
-  box-shadow: 0 0 0 0.2rem rgba(153, 84, 187, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(187, 84, 84, 0.5);
 }
 
 .btn-outline-info.disabled, .btn-outline-info:disabled {
-  color: #9954bb;
+  color: #bb5454;
   background-color: transparent;
 }
 
 .btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:not(:disabled):not(.disabled).active,
 .show > .btn-outline-info.dropdown-toggle {
   color: #fff;
-  background-color: #9954bb;
-  border-color: #9954bb;
+  background-color: #bb5454;
+  border-color: #bb5454;
 }
 
 .btn-outline-info:not(:disabled):not(.disabled):active:focus, .btn-outline-info:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-info.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(153, 84, 187, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(187, 84, 84, 0.5);
 }
 
 .bg-light {

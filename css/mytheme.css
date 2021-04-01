@@ -267,12 +267,38 @@ line-height: normal;
       background-repeat: no-repeat;
       background-color: #F7F7F6;
       position: absolute;
-      top: 200px;
+      top: 100px;
       right: 0px;
-      bottom: 10px;
-      left: 0px;
+      bottom: 0px;
+      left: 220px;
       opacity: 0.8;
       z-index: -1;
+}
+
+
+.bg_cat {
+  position: relative;
+  z-index: 1;
+  background-color: #F5F6EE;
+}
+
+.bg_cat::before {    
+      content: "";
+      background-image: url('images/bg/cat.jpg');
+      background-size: 400px;
+      background-repeat: no-repeat;
+      background-color: #F5F6EE;
+      position: absolute;
+      top: 10px;
+      right: 0px;
+      bottom: 0px;
+      left: 495px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.cattext{
+  width: 60%;
 }
 
 .bg_fish {
@@ -346,7 +372,11 @@ line-height: normal;
       z-index: -1;
 }
 
-
+.turtletext{
+  position: absolute;
+  top: 130px;
+  left: 550px;
+}
 
 .bg_peacock {
   position: relative;

@@ -664,23 +664,179 @@ class: top, center, bg_turtle
 .turtletext[
 ## What happened?]
 
+---
+class: top, center, bg_fish
 
+--
+<br>
+
+<img src="css/images/figs/cause-venn-diagram.png" width="700px"/>
+
+---
+class: top, center, bg_fish
+
+.pull-left[
+<img src="css/images/figs/pre-post-causes-empty.png" width="450px"/>]
+
+.pull-right-low[
+<img src="css/images/figs/cause-venn-diagram.png" width="390px"/>]
 
 ---
 class: top, center, bg_fish
 
 
+.pull-left[
+<img src="css/images/figs/pre-post-causes-r1.png" width="450px"/>]
+
+.pull-right-low[
+<img src="css/images/figs/cause-venn-diagram.png" width="390px"/>]
+
+---
+class: top, center, bg_fish
+
+
+
+.pull-left[
+<img src="css/images/figs/pre-post-causes-r1-arrows.png" width="450px"/>]
+
+.pull-right-low[
+<img src="css/images/figs/cause-venn-diagram.png" width="390px"/>]
+
+---
+class: top, center, bg_fish
+
+
+.pull-left[
+<img src="css/images/figs/pre-post-causes-final.png" width="450px"/>]
+
+.pull-right-low[
+<img src="css/images/figs/cause-venn-diagram.png" width="390px"/>]
+
+--
+
+
+<h2>.italic[How] are students constructing explanations?</h2>
+
 ---
 class: top, center, bg_sting
+
+--
+
+<h2 style="color: rgb(223, 6, 114);">Schemas or p-prims?</h2>
 
 
 
 ---
 class: left, bg_peacock
 
+--
+
+.pea-left[
+<h3>Reasoning by way of analogy to humans (anthropocentric)</h3>]
+
+--
+
+.pea-right[
+<h3>Reasoning by way of the outcome (teleological)</h3>]
+
+--
+
+.pea-text-left[
+.italic[Cave fish lose their eyesight because if you don&rsquo;t use something the body will not maintain it, like if you stop exercising you lose your muscles.]]
 
 ---
-class: middle, bg_lotus
+class: left, bg_peacock
+
+.pea-left[
+<h3>Reasoning by way of analogy to humans (anthropocentric)</h3>]
+
+.pea-right[
+<h3>Reasoning by way of the outcome (teleological)</h3>]
+
+.pea-text-left[
+.italic[Cave fish lose their eyesight because if you don&rsquo;t use something <b>the body will not maintain it</b>, like if you <b>stop exercising</b> you lose your muscles.]]
+
+--
+
+.pea-text-right[
+.italic[Wood evolved because so many organisms depend on it for survival.]]
+
+
+---
+class: middle, bg_lizard
+
+```r
+coin.flip &lt;- function(n){
+   
+   flips &lt;- rbinom(n = n, size = 1, prob = 0.5)
+   
+   outcome &lt;- ifelse(flips == 1, yes = "Heads", no = "Tails")
+   
+   table &lt;- table(outcome) / n
+   
+   return(table)
+   
+}
+```
+
+
+.footnote-dark[
+Jolfaee _et al._, 2014]
+
+---
+class: middle, bg_lizard
+
+.footnote-dark[
+Jolfaee _et al._, 2014]
+
+--
+
+```r
+coin.flip(n = 8)
+```
+
+```
+## outcome
+## Heads Tails 
+##  0.75  0.25
+```
+
+--
+
+```r
+coin.flip(n = 150)
+```
+
+```
+## outcome
+##     Heads     Tails 
+## 0.5733333 0.4266667
+```
+
+--
+
+```r
+coin.flip(n = 10000)
+```
+
+```
+## outcome
+##  Heads  Tails 
+## 0.4936 0.5064
+```
+
+---
+class: middle, bg_lizard
+
+## Generate many coins, slightly varied
+
+## Suppose there is an advantage for landing on heads
+
+---
+class: top, bg_lotus
+
+.right-align[
+## Toward better biology education]
 
 
 </textarea>

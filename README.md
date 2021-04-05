@@ -1,7 +1,6 @@
 # Abstract
 
-## Natural Selection Does Not Come Naturally:
-### Getting mired in pattern & process and proximate & ultimate causality
+### Natural Selection Does Not Come Naturally: Getting mired in pattern & process and proximate & ultimate causality
 
 Biology offers explanation at multiple levels: first by establishing patterns and investigating their causal processes, and then by providing proximate and ultimate causes for observed patterns and processes. This dual causality -- the proximate functional 'how' and the ultimate evolutionary 'why' -- is of particular importance to biological sciences; the 'why' being the stuff that gives the 'how' consequence. Yet hundreds of studies demonstrate that students hold tenacious misconceptions regarding the evolutionary principles necessary for recognizing levels of biological explanation, and that formal instruction does little to address such misconceptions. 
 
@@ -13,22 +12,18 @@ Dobzhansky famously said that nothing in biology makes sense except in the light
 # Images
 
 + [Ontwerp voor aankondiging en bestelkaart met pauwen (1878–1894) by Theo van Hoytema](https://www.rawpixel.com/image/2734102/free-illustration-image-peacock-art-nouveau-vintage)
-+ [Augurkenplant (1898) print in high resolution by Theo van Hoytema](https://www.rawpixel.com/image/2734948/free-illustration-image-art-nouveau-vegetables-vintage-vintage-leaves-images)
-+ [Drie vliegende vogels (1878–1917) print in high resolution by Theo van Hoytema](https://www.rawpixel.com/image/2735896/free-illustration-image-stork-theo-van-bird-illustration)
-+ [Hagedis op een steen (1878–1917) print in high resolution by Theo van Hoytema](https://www.rawpixel.com/image/2734074/free-illustration-image-art-nouveau-stone-lizard)
-+ [Kwitantie voor proefexemplaar van 'Het leelijke jonge eendje' (1893) print in high resolution by Theo van Hoytema](https://www.rawpixel.com/image/2724090/free-illustration-image-swan-art-nouveau-vintage)
++ [Augurkenplant (1898) by Theo van Hoytema](https://www.rawpixel.com/image/2734948/free-illustration-image-art-nouveau-vegetables-vintage-vintage-leaves-images)
++ [Drie vliegende vogels (1878–1917 by Theo van Hoytema](https://www.rawpixel.com/image/2735896/free-illustration-image-stork-theo-van-bird-illustration)
++ [Hagedis op een steen (1878–1917 by Theo van Hoytema](https://www.rawpixel.com/image/2734074/free-illustration-image-art-nouveau-stone-lizard)
++ [Kwitantie voor proefexemplaar van 'Het leelijke jonge eendje' (1893) by Theo van Hoytema](https://www.rawpixel.com/image/2724090/free-illustration-image-swan-art-nouveau-vintage)
 + [Blossoms from Momoyogusa–Flowers of a Hundred Generations (1909) by Kamisaka Sekka.](https://www.rawpixel.com/image/2049874/japanese-woodcut-print-kamisaka-sekka)
-+ [Bull Frog (Rana maxima) from The natural history of Carolina, Florida, and the Bahama Islands (1754) by Mark Catesby](https://www.rawpixel.com/image/329968/free-illustration-image-frog-animals-vintage)
-+ [Portunus (Lupa Pelagica) illustrated by Charles Dessalines D' Orbigny ](https://www.rawpixel.com/image/325100/free-illustration-image-crab-vintage-crab-vintage-collection)
-+ [Different types of corals illustrated by Charles Dessalines D' Orbign](https://www.rawpixel.com/image/324893/free-illustration-image-coral-coral-illustration-sea-coral-illustration)
-+ [Lying bison (Liggende bizon) (1915) print in high resolution by Samuel Jessurun de Mesquita](https://www.rawpixel.com/image/2700434/free-illustration-image-bull-woodcut-art)
-+ [Sunflower (Zonnebloem) (1914) print in high resolution by Samuel Jessurun de Mesquita](https://www.rawpixel.com/image/2687348/free-illustration-image-sunflower-black-and-white-art)
-+ [Ink mushrooms (1915) by Julie de Graag (1877-1924)](https://www.rawpixel.com/image/466875/free-illustration-image-mushroom-mushrooms-public-domain-hand)
-+ [Turtle by Julie de Graag (1877-1924)](https://www.rawpixel.com/image/466803/free-illustration-image-turtle-black-white-art-nouveau-public-domain)
-+ [Spider in a web (1918) by Julie de Graag](https://www.rawpixel.com/image/466978/free-illustration-image-spider-web-art-nouveau)
-+ [Flying bat from Woodland Romances; Or, Fables And Fancies by Clara L. Mateaux (1877)](https://www.rawpixel.com/image/572603/flying-bat-vintage-drawing)
-+ [Two cockatoo and plum blossom (1925 - 1936) by Ohara Koson (1877-1945)](https://www.rawpixel.com/image/436697/two-cockatoo-birds)
++ [Portunus (_Lupa pelagica_) illustrated by Charles Dessalines D' Orbigny](https://www.rawpixel.com/image/325100/free-illustration-image-crab-vintage-crab-vintage-collection)
++ [Lying bison (Liggende bizon) (1915) by Samuel Jessurun de Mesquita](https://www.rawpixel.com/image/2700434/free-illustration-image-bull-woodcut-art)
++ [Sunflower (Zonnebloem) (1914) by Samuel Jessurun de Mesquita](https://www.rawpixel.com/image/2687348/free-illustration-image-sunflower-black-and-white-art)
++ [Ink mushrooms (1915) by Julie de Graag](https://www.rawpixel.com/image/466875/free-illustration-image-mushroom-mushrooms-public-domain-hand)
++ [Turtle by Julie de Graag](https://www.rawpixel.com/image/466803/free-illustration-image-turtle-black-white-art-nouveau-public-domain)
++ [Flying bat from Woodland Romances; Or, Fables And Fancies by Clara L. Mateaux](https://www.rawpixel.com/image/572603/flying-bat-vintage-drawing)
 + [Lobster by anonymous (1560–1585). Original from The Rijksmuseum](https://www.rawpixel.com/image/843231/vintage-lobster-drawing)
-+ [Fishing Frog or Angler (Lophius Piscatorius) illustration from The Natural History of British Fishes](https://www.rawpixel.com/image/431402/free-illustration-image-fish-angler-sea)
-+ [Russell's Sting Ray (Trygon Russellii) from Illustrations of Indian Zoology (1830-1834) by John Edward Gray](https://www.rawpixel.com/image/329925/vintage-stingray-poster)
++ [Fishing Frog or Angler (_Lophius piscatorius_) illustration from The Natural History of British Fishes](https://www.rawpixel.com/image/431402/free-illustration-image-fish-angler-sea)
++ [Russell's Sting Ray (_Trygon russellii_) from Illustrations of Indian Zoology (1830-1834) by John Edward Gray](https://www.rawpixel.com/image/329925/vintage-stingray-poster)
 + [Beautiful photomechanical prints of Lotus Flowers (1887–1897) by Ogawa Kazumasa](https://www.rawpixel.com/image/523362/lotus-flowers-ogawa-kazumasa)

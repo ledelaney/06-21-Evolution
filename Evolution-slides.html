@@ -662,7 +662,7 @@ class: top, center, bg_turtle
 --
 
 .turtletext[
-## What happened?]
+## what happened?]
 
 ---
 class: top, center, bg_fish
@@ -715,14 +715,14 @@ class: top, center, bg_fish
 --
 
 
-<h2>.italic[How] are students constructing explanations?</h2>
+<h2>.italic[how] are students constructing explanations?</h2>
 
 ---
 class: top, center, bg_sting
 
 --
 
-<h2 style="color: rgb(223, 6, 114);">Schemas or p-prims?</h2>
+<h2 style="color: rgb(223, 6, 114);">schemas or p-prims?</h2>
 
 
 
@@ -732,12 +732,12 @@ class: left, bg_peacock
 --
 
 .pea-left[
-<h3>Reasoning by way of analogy to humans (anthropocentric)</h3>]
+<h3>reasoning by way of analogy to humans (anthropocentric)</h3>]
 
 --
 
 .pea-right[
-<h3>Reasoning by way of the outcome (teleological)</h3>]
+<h3>reasoning by way of the outcome (teleological)</h3>]
 
 --
 
@@ -748,10 +748,10 @@ class: left, bg_peacock
 class: left, bg_peacock
 
 .pea-left[
-<h3>Reasoning by way of analogy to humans (anthropocentric)</h3>]
+<h3>reasoning by way of analogy to humans (anthropocentric)</h3>]
 
 .pea-right[
-<h3>Reasoning by way of the outcome (teleological)</h3>]
+<h3>reasoning by way of the outcome (teleological)</h3>]
 
 .pea-text-left[
 .italic[Cave fish lose their eyesight because if you don&rsquo;t use something <b>the body will not maintain it</b>, like if you <b>stop exercising</b> you lose your muscles.]]
@@ -767,18 +767,16 @@ class: middle, bg_lizard
 
 --
 
-```r
+``` r
 coin.flip &lt;- function(n){
    
    flips &lt;- rbinom(n = n, size = 1, prob = 0.5)
    
    outcome &lt;- ifelse(flips == 1, yes = "Heads", no = "Tails")
    
-   table &lt;- table(outcome) / n
+   table &lt;- table(outcome) / n %>%
+   return()
    
-   return(table)
-   
-}
 ```
 
 
@@ -793,14 +791,14 @@ Jolfaee _et al._, 2014]
 
 --
 
-```r
+``` r
 coin.flip(n = 10)
 ```
 
-```
-## outcome
-## Heads Tails 
-##  0.2  0.8
+``` 
+ ## outcome
+ ## Heads Tails 
+ ##  0.2  0.8
 ```
 
 --
@@ -810,9 +808,9 @@ coin.flip(n = 100)
 ```
 
 ```
-## outcome
-## Heads  Tails 
-## 0.57   0.44
+ ## outcome
+ ## Heads  Tails 
+ ## 0.57   0.44
 ```
 
 --
@@ -822,9 +820,9 @@ coin.flip(n = 10000)
 ```
 
 ```
-## outcome
-##  Heads  Tails 
-## 0.4936 0.5064
+ ## outcome
+ ##  Heads  Tails 
+ ## 0.4936 0.5064
 ```
 
 ---
@@ -839,9 +837,8 @@ coin.flip.nonrandom &lt;- function(n, prob){
    
    outcome &lt;- ifelse(flips == 1, yes = "Heads", no = "Tails")
    
-   table &lt;- table(outcome) / n
-   
-   return(table)
+   table &lt;- table(outcome) / n %>%
+   return()
    
 }
 ```
@@ -855,9 +852,9 @@ coin.flip.nonrandom(n = 10, prob = 0.52)
 ```
 
 ```
-## outcome
-## Heads Tails 
-##  0.5   0.5
+ ## outcome
+ ## Heads Tails 
+ ##  0.5   0.5
 ```
 
 --
@@ -867,9 +864,9 @@ coin.flip.nonrandom(n = 100, prob = 0.52)
 ```
 
 ```
-## outcome
-##  Heads   Tails 
-##  0.532   0.468
+ ## outcome
+ ##  Heads   Tails 
+ ##  0.532   0.468
 ```
 
 --
@@ -879,9 +876,9 @@ coin.flip.nonrandom(n = 10000, prob = 0.52)
 ```
 
 ```
-## outcome
-##  Heads    Tails 
-## 0.52007  0.47993
+ ## outcome
+ ##  Heads    Tails 
+ ## 0.52007  0.47993
 ```
 
 ---
@@ -1019,7 +1016,7 @@ The importance of particulate (non-blending) inheritance
 <br>
 <br>
 
-## The interplay of selection and drift]
+## The interplay of drift and selection]
 
 ---
 class: middle, bg_3birds, right-align
@@ -1060,7 +1057,7 @@ The importance of particulate (non-blending) inheritance
 <br>
 <br>
 
-The interplay of selection and drift
+The interplay of drift and selection
 <br>
 <br>
 
@@ -1070,10 +1067,60 @@ The interplay of selection and drift
 
 
 ---
-class: top, bg_lotus
+class: top, center, bg_lotus
+
+## Toward better biology education
+
+
+--
+
+.large-font[
+<i class="fas fa-map-marked-alt fa-2x"></i>] 
+
 
 .right-align[
-## Toward better biology education]
+Always work to draw connections across material]
+
+---
+class: top, center, bg_lotus
+
+## Toward better biology education
+
+.large-font[
+<i class="fas fa-map-marked-alt fa-2x"></i>
+&nbsp;
+<i class="fas fa-code fa-2x"></i>] 
+
+
+.right-align[
+Always work to draw connections across material
+
+Deal in concepts not in raw data]
+
+---
+class: top, center, bg_lotus
+
+## Toward better biology education
+
+.large-font[
+<i class="fas fa-map-marked-alt fa-2x"></i>
+&nbsp;
+<i class="fas fa-code fa-2x"></i>
+&nbsp;
+<i class="fas fa-icons fa-2x"></i>] 
+
+
+.right-align[
+Always work to draw connections across material
+
+Deal in concepts not in raw data
+
+Use simple existing schemas to build the foundation for more <br> complex concepts]
+
+--
+.bottom[
+.bitlarger[
+.pink[Thank you!]]]
 
 
 </textarea>
@@ -1083,7 +1130,8 @@ class: top, bg_lotus
 
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
-"highlightStyle": "github",
+"highlightStyle": "monokai",
+"highlightLanguages": "r",
 "highlightLines": true,
 "countIncrementalSlides": false
 });

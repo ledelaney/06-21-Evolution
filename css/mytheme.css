@@ -467,6 +467,8 @@ line-height: normal;
 }
 
 
+
+
 .bg_3birds {
   position: relative;
   z-index: 1;
@@ -476,11 +478,11 @@ line-height: normal;
 .bg_3birds::before {    
   content: "";
   background-image: url('images/bg/three-birds.jpg');
-  background-size: 320px;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: #F3F1EB;
   position: absolute;
-  top: 0px;
+  top: 30px;
   right: 0px;
   bottom: 0px;
   left: 0px;
@@ -489,7 +491,34 @@ line-height: normal;
 }
 
 
+.bg_leaves {
+  position: relative;
+  z-index: 1;
+  background-color: #F3F1EB;
+}
 
+.bg_leaves::before {    
+  content: "";
+  background-image: url('images/bg/leaves.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #F3F1EB;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 50px;
+  opacity: 1;
+  z-index: -1;
+}
+
+.leavestext{
+  width: 50%;
+  line-height: 1.3em;
+  position: relative;
+  text-align: left;
+  left: 250px;
+}
 
 /*-- LINK STYLING --*/
 

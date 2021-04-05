@@ -9,7 +9,7 @@ To explore how students construct their own explanations regarding the process o
 Dobzhansky famously said that nothing in biology makes sense except in the light of evolution. As such, forming a robust conceptual framework in biology requires distinguishing patterns from the processes that generate them -- as well as distinguishing the functional and evolutionary explanations for such patterns and processes. Without these higher-order cognitive skills, students face an enormous challenge in their conceptual learning of evolution and of biology generally. Here I review the implications of these findings for the teaching and learning of biological sciences, and briefly touch on methods of explicitly addressing such cognitive skills in the classroom.
 
 
-# Images
+### Images
 
 + [Ontwerp voor aankondiging en bestelkaart met pauwen (1878–1894) by Theo van Hoytema](https://www.rawpixel.com/image/2734102/free-illustration-image-peacock-art-nouveau-vintage)
 + [Augurkenplant (1898) by Theo van Hoytema](https://www.rawpixel.com/image/2734948/free-illustration-image-art-nouveau-vegetables-vintage-vintage-leaves-images)

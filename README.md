@@ -16,8 +16,6 @@ Dobzhansky famously said that nothing in biology makes sense except in the light
 + [Drie vliegende vogels (1878–1917 by Theo van Hoytema](https://www.rawpixel.com/image/2735896/free-illustration-image-stork-theo-van-bird-illustration)
 + [Hagedis op een steen (1878–1917 by Theo van Hoytema](https://www.rawpixel.com/image/2734074/free-illustration-image-art-nouveau-stone-lizard)
 + [Kwitantie voor proefexemplaar van 'Het leelijke jonge eendje' (1893) by Theo van Hoytema](https://www.rawpixel.com/image/2724090/free-illustration-image-swan-art-nouveau-vintage)
-+ [Blossoms from Momoyogusa–Flowers of a Hundred Generations (1909) by Kamisaka Sekka.](https://www.rawpixel.com/image/2049874/japanese-woodcut-print-kamisaka-sekka)
-+ [Portunus (_Lupa pelagica_) illustrated by Charles Dessalines D' Orbigny](https://www.rawpixel.com/image/325100/free-illustration-image-crab-vintage-crab-vintage-collection)
 + [Lying bison (Liggende bizon) (1915) by Samuel Jessurun de Mesquita](https://www.rawpixel.com/image/2700434/free-illustration-image-bull-woodcut-art)
 + [Sunflower (Zonnebloem) (1914) by Samuel Jessurun de Mesquita](https://www.rawpixel.com/image/2687348/free-illustration-image-sunflower-black-and-white-art)
 + [Ink mushrooms (1915) by Julie de Graag](https://www.rawpixel.com/image/466875/free-illustration-image-mushroom-mushrooms-public-domain-hand)

@@ -794,25 +794,25 @@ Jolfaee _et al._, 2014]
 --
 
 ```r
-coin.flip(n = 8)
+coin.flip(n = 10)
 ```
 
 ```
 ## outcome
 ## Heads Tails 
-##  0.75  0.25
+##  0.2  0.8
 ```
 
 --
 
 ```r
-coin.flip(n = 150)
+coin.flip(n = 100)
 ```
 
 ```
 ## outcome
-##     Heads     Tails 
-## 0.5733333 0.4266667
+## Heads  Tails 
+## 0.57   0.44
 ```
 
 --
@@ -830,12 +830,244 @@ coin.flip(n = 10000)
 ---
 class: middle, bg_lizard
 
-.pull-right-wide[
-<img src="css/images/figs/camouflage.png" width="400px"/>]
+--
 
-.footnote-dark[
-Colorado Springs Gazette-Telegraph
-06-01-88, pg. 43]
+```r
+coin.flip.nonrandom &lt;- function(n, prob){
+   
+   flips &lt;- rbinom(n = n, size = 1, prob = prob)
+   
+   outcome &lt;- ifelse(flips == 1, yes = "Heads", no = "Tails")
+   
+   table &lt;- table(outcome) / n
+   
+   return(table)
+   
+}
+```
+
+---
+class: middle, bg_lizard
+
+--
+```r
+coin.flip.nonrandom(n = 10, prob = 0.52)
+```
+
+```
+## outcome
+## Heads Tails 
+##  0.5   0.5
+```
+
+--
+
+```r
+coin.flip.nonrandom(n = 100, prob = 0.52)
+```
+
+```
+## outcome
+##  Heads   Tails 
+##  0.532   0.468
+```
+
+--
+
+```r
+coin.flip.nonrandom(n = 10000, prob = 0.52)
+```
+
+```
+## outcome
+##  Heads    Tails 
+## 0.52007  0.47993
+```
+
+---
+class: middle, bg_3birds, right-align
+
+
+--
+<br>
+<br>
+
+.pull-left-narrow[
+
+<i class="fas fa-history"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-atom"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-dice"></i> <i class="fas fa-mouse-pointer"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-unlink"></i>
+<br>]
+
+---
+class: middle, bg_3birds, right-align
+
+<br>
+<br>
+
+.pull-left-narrow[
+
+<i class="fas fa-history fa-3x"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-atom"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-dice"></i> <i class="fas fa-mouse-pointer"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-unlink"></i>
+<br>]
+
+
+
+.pull-right-wide[
+
+## What processes may yield over thousands of generations]
+
+---
+class: middle, bg_3birds, right-align
+
+<br>
+<br>
+
+.pull-left-narrow[
+
+<i class="fas fa-history"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-atom fa-3x"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-dice"></i> <i class="fas fa-mouse-pointer"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-unlink"></i>
+<br>]
+
+
+
+.pull-right-wide[
+
+What processes may yield over thousands of generations
+<br>
+<br>
+
+
+## The importance of particulate (non-blending) inheritance]
+---
+class: middle, bg_3birds, right-align
+
+<br>
+<br>
+.pull-left-narrow[
+
+<i class="fas fa-history"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-atom"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-dice fa-3x"></i> <i class="fas fa-mouse-pointer fa-3x"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-unlink"></i>
+<br>]
+
+
+
+.pull-right-wide[
+
+What processes may yield over thousands of generations
+<br>
+<br>
+<br>
+
+The importance of particulate (non-blending) inheritance
+<br>
+<br>
+<br>
+
+## The interplay of selection and drift]
+
+---
+class: middle, bg_3birds, right-align
+
+<br>
+<br>
+.pull-left-narrow[
+
+<i class="fas fa-history"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-atom"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-dice"></i> <i class="fas fa-mouse-pointer"></i>
+<br>
+<br>
+<br>
+<br>
+<i class="fas fa-unlink fa-3x"></i>
+<br>]
+
+
+
+.pull-right-wide[
+
+What processes may yield over thousands of generations
+<br>
+<br>
+<br>
+
+The importance of particulate (non-blending) inheritance
+<br>
+<br>
+<br>
+
+The interplay of selection and drift
+<br>
+<br>
+
+## Mutation as a process]
+
+
+
 
 ---
 class: top, bg_lotus

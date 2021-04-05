@@ -31,11 +31,11 @@ coin.flip.nonrandom <- function(n, prob){
 }
 
 # Slightly favoring heads in the next generation
-coin.flip.nonrandom(10, 0.55)
-coin.flip.nonrandom(100, 0.55)
-coin.flip.nonrandom(1000, 0.55)
-coin.flip.nonrandom(10000, 0.55)
-coin.flip.nonrandom(100000, 0.55)
+coin.flip.nonrandom(10, 0.52)
+coin.flip.nonrandom(100, 0.52)
+coin.flip.nonrandom(1000, 0.52)
+coin.flip.nonrandom(10000, 0.52)
+coin.flip.nonrandom(100000, 0.52)
 
 # If this "favor" was inherited by the next generation...
 # Lead to more and more heads!

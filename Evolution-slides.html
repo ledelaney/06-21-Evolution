@@ -225,13 +225,12 @@ class: middle, bg_bat
 👆 at the beginning of the semester,  👆 at the end
 
 ---
-class: middle, left, bg_cat
+class: middle, left, bg_brain
 
 ## tinbergen&rsquo;s four questions
 
 .opaque[
-.cattext[
-Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?]]
+### Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?]
 
 <br/>
 
@@ -287,7 +286,7 @@ Instead of having one species perfectly adapted to life on earth, there are mill
   .italic[formal]:
   <br/>
   <br/>
-  .bitlarger[⚖️ &nbsp;🌦️]
+  .bitlarger[⚖️ &nbsp;🌐]
   <br/>
   <br/>
   </span>
@@ -299,12 +298,11 @@ Instead of having one species perfectly adapted to life on earth, there are mill
 .small-font[Aristotle; Tinbergen, 1963; Nesse, 2013]]
 
 ---
-class: middle, left, bg_cat
+class: middle, left, bg_brain
 
 ## tinbergen&rsquo;s four questions
 
-.cattext[
-Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?]
+### <b>Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?</b>
 
 <br/>
 
@@ -359,7 +357,7 @@ Instead of having one species perfectly adapted to life on earth, there are mill
   .italic[formal]:
   <br/>
   <br/>
-  .bitlarger[⚖️ &nbsp;🌦️]
+  .bitlarger[⚖️ &nbsp;🌐]
   <br/>
   <br/>
   </span>
@@ -372,12 +370,11 @@ Instead of having one species perfectly adapted to life on earth, there are mill
 
 
 ---
-class: middle, left, bg_cat
+class: middle, left, bg_brain
 
 ## tinbergen&rsquo;s four questions
 
-.cattext[
-Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?]
+### <b>Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?</b>
 
 <br/>
 
@@ -431,7 +428,7 @@ Instead of having one species perfectly adapted to life on earth, there are mill
   .italic[formal]:
   <br/>
   <br/>
-  .bitlarger[⚖️ &nbsp;🌦️]
+  .bitlarger[⚖️ &nbsp;🌐]
   <br/>
   <br/>
   </span>
@@ -443,12 +440,11 @@ Instead of having one species perfectly adapted to life on earth, there are mill
 .small-font[Aristotle; Tinbergen, 1963; Nesse, 2013]]
 
 ---
-class: middle, left, bg_cat
+class: middle, left, bg_brain
 
 ## tinbergen&rsquo;s four questions
 
-.cattext[
-Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?]
+### <b>Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?</b>
 
 <br/>
 
@@ -502,7 +498,7 @@ Instead of having one species perfectly adapted to life on earth, there are mill
   .italic[formal]:
   <br/>
   <br/>
-  .bitlarger[⚖️ &nbsp;🌦️]
+  .bitlarger[⚖️ &nbsp;🌐]
   <br/>
   <br/>
   </span>
@@ -514,12 +510,11 @@ Instead of having one species perfectly adapted to life on earth, there are mill
 .small-font[Aristotle; Tinbergen, 1963; Nesse, 2013]]
 
 ---
-class: middle, left, bg_cat
+class: middle, left, bg_brain
 
 ## tinbergen&rsquo;s four questions
 
-.cattext[
-Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?]
+### <b>Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?</b>
 
 <br/>
 
@@ -573,7 +568,7 @@ Instead of having one species perfectly adapted to life on earth, there are mill
   .italic[formal]:
   <br/>
   <br/>
-  .bitlarger[⚖️ &nbsp;🌦️]
+  .bitlarger[⚖️ &nbsp;🌐]
   <br/>
   <br/>
   </span>
@@ -586,12 +581,11 @@ Instead of having one species perfectly adapted to life on earth, there are mill
 
 
 ---
-class: middle, left, bg_cat
+class: middle, left, bg_brain
 
 ## tinbergen&rsquo;s four questions
 
-.cattext[
-Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?]
+### <b>Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?</b>
 
 <br/>
 
@@ -645,7 +639,7 @@ Instead of having one species perfectly adapted to life on earth, there are mill
 .italic[formal]:
 <br/>
 <br/>
-.bitlarger[⚖️ &nbsp;🌦️]
+.bitlarger[⚖️ &nbsp;🌐]
 <br/>
 <br/>
 </span>
@@ -768,16 +762,47 @@ class: middle, bg_3birds
 
 --
 
-``` r
-coin.flip &lt;- function(n){
+.birdtext[
+.right-align[
+## building the base]]
+
+---
+class: middle, bg_3birds
+
+
+```r
+coin.flip &lt;&ndash; function(n){
+
+flips &lt;&ndash; rbinom(n = n, size = 1, prob = 0.5)
+
+outcome &lt;&ndash; ifelse(flips == 1, yes = "Heads", no = "Tails")
    
-   flips &lt;- rbinom(n = n, size = 1, prob = 0.5)
+table &lt;&ndash; table(outcome) / n %>%
+return()
+
+}
+```
+
+
+.footnote-dark[
+Jolfaee _et al._, 2014]
+
+
+---
+class: middle, bg_3birds
+
+
+```r
+coin.flip &lt;&ndash; function(n){
+
+** flips &lt;&ndash; rbinom(n = n, size = 1, prob = 0.5)
+
+outcome &lt;&ndash; ifelse(flips == 1, yes = "Heads", no = "Tails")
    
-   outcome &lt;- ifelse(flips == 1, yes = "Heads", no = "Tails")
-   
-   table &lt;- table(outcome) / n %>%
-   return()
-   
+table &lt;&ndash; table(outcome) / n %>%
+return()
+
+}
 ```
 
 
@@ -832,15 +857,31 @@ class: middle, bg_3birds
 --
 
 ```r
-coin.flip.nonrandom &lt;- function(n, prob){
+coin.flip &lt;&ndash; function(n, prob){
+
+flips &lt;&ndash; rbinom(n = n, size = 1, prob = prob)
+
+outcome &lt;&ndash; ifelse(flips == 1, yes = "Heads", no = "Tails")
    
-   flips &lt;- rbinom(n = n, size = 1, prob = prob)
+table &lt;&ndash; table(outcome) / n %>%
+return()
+
+}
+```
+
+---
+class: middle, bg_3birds
+
+```r
+coin.flip &lt;&ndash; function(n, prob){
+
+** flips &lt;&ndash; rbinom(n = n, size = 1, prob = prob)
+
+outcome &lt;&ndash; ifelse(flips == 1, yes = "Heads", no = "Tails")
    
-   outcome &lt;- ifelse(flips == 1, yes = "Heads", no = "Tails")
-   
-   table &lt;- table(outcome) / n %>%
-   return()
-   
+table &lt;&ndash; table(outcome) / n %>%
+return()
+
 }
 ```
 
@@ -1023,7 +1064,6 @@ Use simple existing schemas to build the foundation for more <br> complex concep
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "monokai",
-"highlightLanguages": "r",
 "highlightLines": true,
 "countIncrementalSlides": false
 });

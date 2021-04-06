@@ -1,5 +1,5 @@
 
-/*-- ADDED CSS FOR PLACEMENT & COLOR --*/
+/* CSS FOR PLACEMENT AND FONT SIZING */
 
 
 /*-- Font sizing --*/
@@ -80,6 +80,10 @@ line-height: normal;
 
 .pull-right-low + * { clear: both; }
 
+
+
+/* TITLE SLIDE STYLE */
+
 .title-slide h2 {
   position: absolute;
   top: 90px;
@@ -107,28 +111,12 @@ line-height: normal;
   left: -3px;
 }
 
-/*-- BACKGROUNDS AND OPACITY --*/
 
-.bg_lotus {
-  position: relative;
-  z-index: 1;
-}
 
-.bg_lotus::before {    
-      content: "";
-      background-image: url('images/bg/lotus.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #B0C4CB;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 1;
-      z-index: -1;
-}
 
+/*-- BACKGROUNDS AND SPECIFIC SLIDE STYLING --*/
+
+/* title slide */
 
 .bg_fungus {
   position: relative;
@@ -150,6 +138,69 @@ line-height: normal;
       z-index: -1;
 }
 
+.bg_lotus {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+/* slide one: biology education got problems */
+
+.bg_sunflower {
+  position: relative;
+  z-index: 1;
+  background-color: #EFEDE6;
+}
+
+.bg_sunflower::before {    
+      content: "";
+      background-image: url('images/bg/sunflower.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: #EFEDE6;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.bg_sunflower h3 {
+  position: relative;
+  top: -20px;
+}
+
+
+
+/* slide two: raw data memorization demo */
+
+.bg_lobster {
+  position: relative;
+  z-index: 1;
+  background-color: #F6F5F0;
+}
+
+.bg_lobster::before {    
+      content: "";
+      background-image: url('images/bg/lobster.jpg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: #F6F5F0;
+      position: absolute;
+      top: 320px;
+      right: 0px;
+      bottom: 0px;
+      left: 40px;
+      opacity: 1;
+      z-index: -1;
+}
+
+
+
+/* slide three: dobzhansky was right */
 
 .bg_swan {
   position: relative;
@@ -185,82 +236,41 @@ line-height: normal;
   left: 570px;
 }
 
-.bg_sunflower {
+
+
+/* slide four: biology is a historical science */
+
+.bg_bison {
   position: relative;
   z-index: 1;
-  background-color: #EFEDE6;
+  background-color: #EEEDE9;
 }
 
-.bg_sunflower::before {    
+.bg_bison::before {    
       content: "";
-      background-image: url('images/bg/sunflower.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #EFEDE6;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 1;
-      z-index: -1;
-}
-
-.bg_sunflower h3 {
-  position: relative;
-  top: -20px;
-}
-
-
-.bg_lobster {
-  position: relative;
-  z-index: 1;
-  background-color: #F6F5F0;
-}
-
-.bg_lobster::before {    
-      content: "";
-      background-image: url('images/bg/lobster.jpg');
+      background-image: url('images/bg/bison.jpg');
       background-size: contain;
       background-repeat: no-repeat;
-      background-color: #F6F5F0;
+      background-color: #EEEDE9;
       position: absolute;
-      top: 320px;
+      top: 90px;
       right: 0px;
       bottom: 0px;
-      left: 40px;
-      opacity: 1;
-      z-index: -1;
-}
-
-.bg_sting {
-  position: relative;
-  z-index: 1;
-  background-color: #F4EFEF;
-}
-
-.bg_sting::before {    
-      content: "";
-      background-image: url('images/bg/sting.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #F4EFEF;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 10px;
       left: 0px;
-      opacity: 1;
+      opacity: 0.9;
       z-index: -1;
 }
 
-.bg_sting h2 {
-  position: relative;
-  top: 130px;
-  left: 480px;
-  width: 30%;
+.bisontext {
+  position: absolute;
+  top: 320px;
+  left: 200px;
+  width: 65%;
 }
 
+
+
+/* slide five: study design */
 
 .bg_bat {
   position: relative;
@@ -284,30 +294,61 @@ line-height: normal;
 }
 
 
-.bg_cat {
+/* slide six: tinbergen's four questions framework */
+
+.bg_brain {
   position: relative;
   z-index: 1;
-  background-color: #F5F6EE;
+  background-color: #F3F1EB;
 }
 
-.bg_cat::before {    
+.bg_brain::before {    
+  content: "";
+  background-image: url('images/bg/brain.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  background-color: #F3F1EB;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+
+/* slide seven: so what happened? */
+
+.bg_turtle {
+  position: relative;
+  z-index: 1;
+  background-color: #F6F5F1;
+}
+
+.bg_turtle::before {    
       content: "";
-      background-image: url('images/bg/cat.jpg');
-      background-size: 400px;
+      background-image: url('images/bg/turtle.jpg');
+      background-size: contain;
       background-repeat: no-repeat;
-      background-color: #F5F6EE;
+      background-color: #F6F5F1;
       position: absolute;
-      top: 10px;
+      top: 60px;
       right: 0px;
       bottom: 0px;
-      left: 505px;
-      opacity: 0.6;
+      left: 0px;
+      opacity: 0.9;
       z-index: -1;
 }
 
-.cattext{
-  width: 60%;
+.turtletext{
+  position: absolute;
+  top: 130px;
+  left: 550px;
 }
+
+
+/* slide eight: results */
 
 .bg_fish {
   position: relative;
@@ -341,60 +382,38 @@ line-height: normal;
 }
 
 
-.bg_bison {
+/* slide nine: the age old debate, schemas or p-prims? */
+
+.bg_sting {
   position: relative;
   z-index: 1;
-  background-color: #EEEDE9;
+  background-color: #F4EFEF;
 }
 
-.bg_bison::before {    
+.bg_sting::before {    
       content: "";
-      background-image: url('images/bg/bison.jpg');
-      background-size: contain;
+      background-image: url('images/bg/sting.jpg');
+      background-size: cover;
       background-repeat: no-repeat;
-      background-color: #EEEDE9;
+      background-color: #F4EFEF;
       position: absolute;
-      top: 90px;
+      top: 0px;
       right: 0px;
-      bottom: 0px;
+      bottom: 10px;
       left: 0px;
-      opacity: 0.9;
+      opacity: 1;
       z-index: -1;
 }
 
-.bisontext {
-  position: absolute;
-  top: 320px;
-  left: 200px;
-  width: 65%;
-}
-
-.bg_turtle {
+.bg_sting h2 {
   position: relative;
-  z-index: 1;
-  background-color: #F6F5F1;
-}
-
-.bg_turtle::before {    
-      content: "";
-      background-image: url('images/bg/turtle.jpg');
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-color: #F6F5F1;
-      position: absolute;
-      top: 60px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.9;
-      z-index: -1;
-}
-
-.turtletext{
-  position: absolute;
   top: 130px;
-  left: 550px;
+  left: 480px;
+  width: 30%;
 }
+
+
+/* slide ten: familiar schemas */
 
 .bg_peacock {
   position: relative;
@@ -446,28 +465,8 @@ line-height: normal;
   left: 460px;
 }
 
-.bg_lizard {
-  position: relative;
-  z-index: 1;
-}
 
-.bg_lizard::before {    
-      content: "";
-      background-image: url('images/bg/lizard.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: #A2ABB4;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 1;
-      z-index: -1;
-}
-
-
-
+/* slide eleven: coin demo */
 
 .bg_3birds {
   position: relative;
@@ -490,6 +489,14 @@ line-height: normal;
   z-index: -1;
 }
 
+.birdtext{
+  position: relative;
+  bottom: 100px;
+  left: 50px;
+}
+
+
+/* slide twelve: building blocks */
 
 .bg_leaves {
   position: relative;
@@ -519,6 +526,32 @@ line-height: normal;
   text-align: left;
   left: 250px;
 }
+
+
+
+/* conclusion slide */
+
+.bg_lotus {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_lotus::before {    
+      content: "";
+      background-image: url('images/bg/lotus.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: #B0C4CB;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+
 
 /*-- LINK STYLING --*/
 
@@ -615,9 +648,10 @@ hr {
 }
 
 /*-- Line highlighting within code --*/
-/* .remark-code-line-highlighted {
-  background-color:   #baf0ba;
-} */
+.remark-code-line-highlighted {
+  background-color:   #d9e49d;
+  color: #000000;
+}
 
 /*-- CODE CHUNKS --*/
 
@@ -661,10 +695,6 @@ td {
   padding-bottom: 1em;
 }
 
-/*-- Table rows (even) --*/
-/* .remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) {
-  background:          #97b899;
-} */
 
 /*-- BLOCK QUOTE --*/
 

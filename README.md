@@ -1,4 +1,8 @@
-# Abstract
+[Link to fill slide deck]()
+
+See `extras` -> `references.pdf` for more reading on various topics.
+
+## Abstract
 
 ### Natural Selection Does Not Come Naturally: Getting mired in pattern & process and proximate & ultimate causality
 
@@ -8,6 +12,9 @@ To explore how students construct their own explanations regarding the process o
 
 Dobzhansky famously said that nothing in biology makes sense except in the light of evolution. As such, forming a robust conceptual framework in biology requires distinguishing patterns from the processes that generate them -- as well as distinguishing the functional and evolutionary explanations for such patterns and processes. Without these higher-order cognitive skills, students face an enormous challenge in their conceptual learning of evolution and of biology generally. Here I review the implications of these findings for the teaching and learning of biological sciences, and briefly touch on methods of explicitly addressing such cognitive skills in the classroom.
 
+## Slides
+
+Libraries and preliminary `HTML` file created with the R package `xaringan`. The rest was hard-coded the old-fashioned way.
 
 ### Images
 

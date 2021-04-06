@@ -15,6 +15,9 @@
 	font-style: italic;
 }
 
+.strike{
+  text-decoration: line-through;
+}
 
 /*-- Spacing --*/
 .pull-left {
@@ -31,7 +34,7 @@
 
 .pull-bottom {
 position: absolute;
-top: 640px;
+top: 620px;
 right: 50px;
 color: #8c8c8c
 }
@@ -138,11 +141,6 @@ line-height: normal;
       z-index: -1;
 }
 
-.bg_lotus {
-  position: relative;
-  z-index: 1;
-}
-
 
 
 /* slide one: biology education got problems */
@@ -238,7 +236,7 @@ line-height: normal;
 
 
 
-/* slide four: biology is a historical science */
+/* slide four: biology is a(n) historical science */
 
 .bg_bison {
   position: relative;
@@ -551,7 +549,18 @@ line-height: normal;
       z-index: -1;
 }
 
+.bg_lotus h2{
+  /* width: 80%; */
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
 
+.lotusicon {
+  position: relative;
+  left: 40px;
+  padding: 3px;
+}
 
 /*-- LINK STYLING --*/
 

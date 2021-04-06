@@ -5,7 +5,7 @@
 /*-- Font sizing --*/
 .larger { font-size: 400% }
 .bitlarger { font-size: 200%; line-height: normal; }
-.large { font-size: 130% }
+.large { font-size: 130%; line-height: normal; }
 .midi { font-size: 85% }
 .small { font-size: 70% }
 .xsmall { font-size: 60% }
@@ -380,7 +380,7 @@ line-height: normal;
 }
 
 
-/* slide nine: the age old debate, schemas or p-prims? */
+/* slide nine: who's afraid of misconceptions? */
 
 .bg_sting {
   position: relative;
@@ -407,64 +407,11 @@ line-height: normal;
   position: relative;
   top: 130px;
   left: 480px;
-  width: 30%;
+  width: 35%;
 }
 
 
-/* slide ten: familiar schemas */
-
-.bg_peacock {
-  position: relative;
-  z-index: 1;
-  background-color: #F0ECE5;
-}
-
-.bg_peacock::before {    
-      content: "";
-      background-image: url('images/bg/peacock.jpg');
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-color: #F0ECE5;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.9;
-      z-index: -1;
-}
-
-.pea-left {
-  position: relative;
-  width: 40%;
-  top: 60px;
-  left: 80px;
-}
-
-.pea-right {
-  position: relative;
-  width: 40%;
-  left: 470px;
-  top: -20px;
-}
-
-.pea-text-left {
-  position: relative;
-  width: 30%;
-  left: 80px;
-  line-height: 1.2;
-}
-
-.pea-text-right {
-  position: relative;
-  width: 40%;
-  line-height: 1.2;
-  bottom: 170px;
-  left: 460px;
-}
-
-
-/* slide eleven: coin demo */
+/* slide ten: coin demo */
 
 .bg_3birds {
   position: relative;
@@ -494,7 +441,7 @@ line-height: normal;
 }
 
 
-/* slide twelve: building blocks */
+/* slide eleven: building blocks */
 
 .bg_leaves {
   position: relative;
@@ -559,7 +506,13 @@ line-height: normal;
 .lotusicon {
   position: relative;
   left: 40px;
-  padding: 3px;
+  padding: 0.1px;
+}
+
+.lotustext {
+  position: relative;
+  text-align: right;
+  left: 20px;
 }
 
 /*-- LINK STYLING --*/

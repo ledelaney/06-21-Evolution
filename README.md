@@ -1,6 +1,6 @@
-[Link to fill slide deck]()
+[LINK TO FULL SLIDE DECK]()
 
-See `extras` -> `references.pdf` for slide citations and more reading on various topics.
+This talk incorporates the wonderful ideas and work of a great many people. See `extras -> references.pdf` for slide citations and more reading on various topics.
 
 ## Abstract
 

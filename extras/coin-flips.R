@@ -30,24 +30,12 @@ coin.flip.nonrandom <- function(n, prob){
   
 }
 
-# Slightly favoring heads in the next generation
+# Slightly favoring heads in each generation
 coin.flip.nonrandom(10, 0.52)
 coin.flip.nonrandom(100, 0.52)
 coin.flip.nonrandom(1000, 0.52)
 coin.flip.nonrandom(10000, 0.52)
 coin.flip.nonrandom(100000, 0.52)
 
-# If this "favor" was inherited by the next generation...
+# If this "favor" could be inherited by the next "generation..."
 # Lead to more and more heads!
-
-
-coin.flip.varied <- function(n){
-  
-  myprob <- runif(n = 1, min = 0.45, max = 0.55)
-  
-  flips <- rbinom(n = n, size = 1, prob = myprob)
-  outcome <- ifelse(flips == 1, yes = "Heads", no = "Tails")
-  
-  table(outcome) %>%
-    return()
-}

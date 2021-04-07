@@ -1,6 +1,6 @@
 # Evolution 2021
 
-![Slide Card](https://ledelaney.org/talks/2021evolution/css/images/06-2021-evolution-card.png)
+<img src="https://ledelaney.org/talks/2021evolution/css/images/06-2021-Evolution-card.png" />
 
 [LINK TO FULL SLIDE DECK](https://ledelaney.org/talks/2021evolution)
 

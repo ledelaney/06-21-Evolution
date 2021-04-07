@@ -1,6 +1,10 @@
-[Link to fill slide deck]()
+# Evolution 2021
 
-See `extras` -> `references.pdf` for slide citations and more reading on various topics.
+<img src="https://ledelaney.org/talks/2021evolution/css/images/06-2021-Evolution-card.png" />
+
+[LINK TO FULL SLIDE DECK](https://ledelaney.org/talks/2021evolution)
+
+This talk incorporates the wonderful ideas and work of a great many people. See `extras -> references.pdf` for slide citations and more reading on various topics.
 
 ## Abstract
 
@@ -14,9 +18,11 @@ Dobzhansky famously said that nothing in biology makes sense except in the light
 
 ## Slides
 
-Libraries and preliminary `HTML` file created with the R package `xaringan`, which uses `remark.js`. The rest was hard-coded the old-fashioned way.
+Libraries and preliminary `HTML` file created with the R package `xaringan`, which uses `remark.js`. Gained a lot of valuable insight on these tools from trolling the GitHub pages of [@gadenbuie](https://github.com/gadenbuie) and [@mine-cetinkaya-rundel](https://github.com/mine-cetinkaya-rundel). The rest was (poorly) hard-coded the old-fashioned way by me.
 
 ### Images
+
+Most originate from [RawPixel](https://www.rawpixel.com/category/53/public-domain), an incredible resource of public domain images. (Found trolling the GitHub pages of [@apreshill](https://github.com/apreshill).)
 
 + [Ink mushrooms (1915) by Julie de Graag](https://www.rawpixel.com/image/466875/free-illustration-image-mushroom-mushrooms-public-domain-hand)
 + [Sunflower (Zonnebloem) (1914) by Samuel Jessurun de Mesquita](https://www.rawpixel.com/image/2687348/free-illustration-image-sunflower-black-and-white-art)

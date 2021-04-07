@@ -1,4 +1,8 @@
-[LINK TO FULL SLIDE DECK]()
+# Evolution 2021
+
+<img src="https://ledelaney.org/talks/evolution2021/css/images/06-2021-evolution-card.png" />
+
+[LINK TO FULL SLIDE DECK](https://ledelaney.org/talks/evolution2021)
 
 This talk incorporates the wonderful ideas and work of a great many people. See `extras -> references.pdf` for slide citations and more reading on various topics.
 

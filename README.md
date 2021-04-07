@@ -14,7 +14,7 @@ Dobzhansky famously said that nothing in biology makes sense except in the light
 
 ## Slides
 
-Libraries and preliminary `HTML` file created with the R package `xaringan`. The rest was hard-coded the old-fashioned way.
+Libraries and preliminary `HTML` file created with the R package `xaringan`, which uses `remark.js`. The rest was hard-coded the old-fashioned way.
 
 ### Images
 

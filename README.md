@@ -1,6 +1,6 @@
 [Link to fill slide deck]()
 
-See `extras` -> `references.pdf` for more reading on various topics.
+See `extras` -> `references.pdf` for slide citations and more reading on various topics.
 
 ## Abstract
 

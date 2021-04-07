@@ -18,7 +18,7 @@ Libraries and preliminary `HTML` file created with the R package `xaringan`, whi
 
 ### Images
 
-Most originate from [RawPixel](https://www.rawpixel.com/category/53/public-domain), an incredible resource of public domain images.
+Most originate from [RawPixel](https://www.rawpixel.com/category/53/public-domain), an incredible resource of public domain images. (Found trolling the GitHub pages of [@apreshill](https://github.com/apreshill).)
 
 + [Ink mushrooms (1915) by Julie de Graag](https://www.rawpixel.com/image/466875/free-illustration-image-mushroom-mushrooms-public-domain-hand)
 + [Sunflower (Zonnebloem) (1914) by Samuel Jessurun de Mesquita](https://www.rawpixel.com/image/2687348/free-illustration-image-sunflower-black-and-white-art)

@@ -516,6 +516,12 @@ line-height: normal;
   left: 20px;
 }
 
+.lotusthanks{
+  background-color: rgb(218, 174, 169);
+  width: fit-content;
+}
+
+
 /*-- LINK STYLING --*/
 
 a {

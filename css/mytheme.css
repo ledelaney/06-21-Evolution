@@ -108,9 +108,17 @@ line-height: normal;
   left: 580px;
 }
 
+.title-slide > .fa-github, .fa-twitter {
+  color: #9e4e20;
+}
+
 .webpage {
   position: relative;
   left: -3px;
+}
+
+.webpage > .fa-address-card, .fa-github {
+  color: #9e4e20;
 }
 
 

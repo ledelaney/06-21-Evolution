@@ -2,7 +2,9 @@
 
 ![](css/images/06-2021-evolution-card.png)
 
-[LINK TO FULL SLIDE DECK](https://ledelaney.org/talks/2021evolution)
+📹 [View Recording](https://uofi.box.com/v/2021evolution)
+
+🎞️ [View Slide Deck](https://ledelaney.org/talks/2021evolution)
 
 This talk incorporates the wonderful ideas and work of a great many people. See `extras -> references.pdf` for slide citations and more reading on various topics.
 
